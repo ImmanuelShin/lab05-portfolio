@@ -32,7 +32,10 @@ class Header extends Component {
     }
 
     const HeaderTitleTypeAnimation = React.memo( () => {
-      return this.titles
+      return (
+        this.titles
+        
+        );
     }, (props, prevProp) => true);
 
     return (
